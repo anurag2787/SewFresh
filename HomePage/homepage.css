@@ -120,6 +120,8 @@ h1,h2.h3{
     clear: both;
 }
 .signup{
+  margin-top: 5px;
+    margin-right: 20px;
     background-color: blue;
     border-radius: 10px;
     height: 35px;
