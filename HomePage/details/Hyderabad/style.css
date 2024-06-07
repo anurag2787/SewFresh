@@ -1,0 +1,304 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: arial;
+}
+
+.main {
+  margin: 2%;
+}
+
+.card {
+  width: 20%;
+  display: inline-block;
+  border-radius: 5px;
+  margin: 2%;
+  margin-left: 135px;
+  transition: all 0.6s;
+}
+
+.card:hover {
+  box-shadow: 2px 2px 20px black;
+}
+
+.image img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px; /* Adjusted margin */
+}
+
+.tname {
+  margin-left: 10px;
+  text-align: left;
+}
+
+.star {
+  color: white;
+  margin-right: 10px;
+  background-color: green;
+  width: 40px;
+  height: 22px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 3px;
+  padding-bottom: 3px;;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.star-col {
+  color: gold;
+  margin-left: 5px;
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.des {
+  margin-top: 20px;
+  text-align: center;
+}
+
+button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+
+/* -------------city name-------------- */
+.map{
+  width: 30px;
+  
+}
+
+.city-name-loco{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* ---------------footer paart----------------- */
+footer{
+  background-color: black;
+}
+.footer {
+    
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 20px; 
+}
+
+.aboutus, .city, .contactus {
+  flex: 1; /* Equal width for all sections */
+  padding: 0 20px; /* Add horizontal padding to separate sections */
+}
+
+.aboutus h1, .city h1, .contactus h1 {
+  margin-top: 0; /* Remove margin for h1 */
+}
+
+.aboutus p, .city p, .contactus p {
+  margin-top: 0; /* Remove margin for p */
+  line-height: 1.5; /* Set line height for better readability */
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.footer-h1{
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-size:  20px;
+  text-align: center;
+}
+
+.footer-p{
+  font-size:  12px;
+  text-align: center;
+}
+.copyright{
+  font-size: 20px;
+    letter-spacing: 2px;
+  margin-top:10px ;
+  padding-bottom: 15px;;
+  text-align: center;
+  color: white;
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #000; /* Black background */
+}
+
+/* Sign Up button styling */
+.pages .SignUp {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: blue; /* Blue background color */
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.pages .SignUp:hover {
+  background-color: darkblue; /* Darker blue on hover */
+}
+
+
+.logo img {
+  height: 90px; /* Adjust based on your logo's size */
+}
+
+.pages a {
+  color: #fff; /* White color for text */
+  text-decoration: none;
+  margin: 0 15px; /* Space out the links */
+  font-size: 18px;
+}
+
+.pages a:hover {
+  color: #ccc; /* Lighter grey on hover */
+}
+
+
+/* -------------------about page ------------------------- */
+
+ 
+.container8 {
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.img6{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: 60%;
+    object-fit: cover;
+}
+
+
+  .product-description {
+    border-bottom: 1px solid #E1E8EE;
+    /* margin-bottom: 20px; */
+    margin-left: 80px;
+  }
+  .product-description span {
+    font-size: 12px;
+    color: #358ED7;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .rating-container {
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.rating-number {
+    position: absolute;
+    bottom: -10px; /* Adjust as needed to align with the text */
+    left: 10px; /* Adjust as needed to align with the star */
+    background-color: green; /* Background color under the green color */
+    color: white; /* Text color */
+    font-size: 18px; /* Font size */
+    padding: 5px 10px; /* Padding */
+    border-radius: 5px; /* Border radius */
+    text-align: center; /* Center text */
+}
+
+  .product-description h1 {
+    font-weight: 300;
+    font-size: 52px;
+    color: #43484D;
+    letter-spacing: -2px;
+  }
+  .product-description p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #86939E;
+    line-height: 24px;
+  }
+
+ 
+/* Product Price */
+.product-price {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+   
+  .product-price span {
+    font-size: 26px;
+    font-weight: 300;
+    color: #43474D;
+    margin-right: 20px;
+  }
+   
+  .cart-btn {
+    display: inline-block;
+    background-color: #7DC855;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: none;
+    padding: 12px 30px;
+    transition: transform 0.7s ease;
+  }
+  .cart-btn:hover {
+    background-color: #64af3d;
+    
+  }
+
+  #goback{
+    border: none;
+    background-color: rgb(230, 123, 123);
+    /* color: black; */
+    margin-left: 10px;;
+  }
+
+  #goback:hover{
+    background-color: rgb(255, 0, 0);
+  }
+

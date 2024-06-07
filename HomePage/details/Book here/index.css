@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+html,
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.15rem;
+}
+
+#loginFormSection {
+  position: relative;
+  border-radius: 20px;
+}
+.form-control{
+    border-radius: 50px;
+}
+
+
+.buffer {
+  min-height: calc(100vh - 65px);
+}
+
+@media (max-width: 992px) {
+  .buffer {
+    min-height: 15rem;
+  }
+}
+
+.buffer .bg-holder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120vh;
+  height: 100vh;
+  bottom: 0;
+  background: url(./img/pexels-antoni-shkraba-6665032.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+.star-input {
+    background-image: url('./img/star-solid.svg');
+    background-repeat: no-repeat;
+    background-position: left 10px center; 
+    padding-left: 40px; 
+    /* width: calc(100% - 40px); */
+    width: 500px;
+  }
+  .book-header{
+    font-family: 'Arial', sans-serif;
+  }
+  #exampleInputDescription1 {
+    height: 120px; 
+    vertical-align: top; 
+  }
+  
+
+  
