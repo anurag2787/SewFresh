@@ -29,7 +29,7 @@ googleLoginButtons.forEach(button => {
       const user = result.user;
       console.log("Google sign-in successful:", user);
       alert("Login successful!");
-      window.location.href = '/SewFresh-HOF/index.html';
+      window.location.href = "../index.html";
     } catch (error) {
       console.error("Google sign-in error:", error.message);
       alert("Google sign-in failed. Please try again.");
@@ -50,7 +50,7 @@ signUpForm.addEventListener("submit", async (e) => {
     signUpForm.reset();
     console.log("User signed up:", user);
     alert("Thank you for signing up");
-    window.location.href = '/SewFresh-HOF/index.html';
+    window.location.href = '..index.html';
   } catch (error) {
     console.error("Error signing up:", error.message);
     alert("Facing some difficulties, please try again.");
@@ -70,7 +70,7 @@ signInForm.addEventListener("submit", async (e) => {
     signInForm.reset();
     console.log("User signed in:", user);
     alert("Logged in successfully!");
-    window.location.href = '/SewFresh-HOF/index.html';
+    window.location.href = '..index.html';
   } catch (error) {
     console.error("Error signing in:", error.message);
     alert("Invalid email or password. Please try again.");
