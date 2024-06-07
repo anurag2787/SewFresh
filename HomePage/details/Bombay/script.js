@@ -41,7 +41,7 @@ function fetchData() {
                         <div class="star">${tailor.rating} <span class="star-col">&#9733;</span></div>
                     </div>
                     <div class="des">
-                        <p>${tailor.address}</p>
+                        <p>${tailor.location}</p>
                         <button class="explore-btn">Explore</button>
                     </div>
                 `;

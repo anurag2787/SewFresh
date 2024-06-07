@@ -302,3 +302,16 @@ a{
     background-color: rgb(255, 0, 0);
   }
 
+  /* ------------------------loading----------------- */
+.loading{
+  margin-left: auto;
+  margin-right: auto;
+
+  background-position: center; 
+  width: 30%; 
+  height: 50vh; 
+  background-image:url("../load.gif");
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+
