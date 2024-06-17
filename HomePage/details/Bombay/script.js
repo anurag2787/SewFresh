@@ -65,12 +65,12 @@ function showAbout(tailor) {
     // main.style.display = 'none'; // Optionally hide the main content
     main.innerHTML = `
         <div class="container8">
-            <div>
+            <div class="img8">
                 <img src="${tailor.image_link}" alt="${tailor.name}">
             </div>
             <div class="product-description">
                 <h1>${tailor.name}</h1>
-                <span>${tailor.address}</span>
+                <span>${tailor.location}</span>
                 <p>${tailor.about}</p>
                 <div class="rating-container">
                     <div class="rating-number">${tailor.rating} &#9733;</div> 

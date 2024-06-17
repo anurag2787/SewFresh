@@ -70,7 +70,7 @@ function showAbout(tailor) {
             </div>
             <div class="product-description">
                 <h1>${tailor.name}</h1>
-                <span>${tailor.address}</span>
+                <span >${tailor.address}</span>
                 <p>${tailor.about}</p>
                 <div class="rating-container">
                     <div class="rating-number"> ${tailor.rating} &#9733;</div> 

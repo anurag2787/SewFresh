@@ -51,6 +51,66 @@ body {
     height: 120px; 
     vertical-align: top; 
   }
+
+  @media only screen and (max-width: 1100px) {
+
+    /* Adjust container and form widths for smaller screens */
+    .col-lg-6.d-flex {
+      flex-direction: column;  /* Stack elements vertically */
+    }
+  
+    .col-lg-6 {
+      width: 100%;  /* Make each form section take full width */
+    }
+  
+    .offset-lg-2,
+    .col-lg-8 {
+      /* Remove offsets and adjust form width as needed */
+      padding: 20px;  /* Add some padding for better margins */
+      width: calc(100% - 40px);  /* Account for star icon padding */
+    }
+  
+    /* Adjust star icon positioning for smaller inputs */
+    .star-input {
+      background-position: left 5px center;  /* Move star icon closer */
+      width: calc(100% - 30px);  /* Adjust width for smaller input */
+    }
+  
+    /* Additional adjustments (optional) */
+    .book-header {
+      margin-top: 10px;
+      padding: 0px;
+      color: white;
+      font-weight: bolder;
+      font-size: 1.5rem;  /* Increase heading size for readability */
+    }
+  
+    #exampleInputDescription1 {
+      height: auto;  /* Allow description box to grow as needed */
+    }
+    .buffer{
+      display: none;
+    }
+    .background {
+      background: rgba(0, 0, 0, 0.7) url(./img/sewfresh.jpg);
+      /* background-image: url(../img/bg.jpg); */
+      background-size: cover;
+      background-blend-mode: darken;
+      background-position: center;
+    }
+    .ab{
+      width: 320px;
+      height: 50px;
+
+    }
+    .ac{
+      width: 295px;
+        border-radius: 40px;
+        padding: 10px 20px;
+
+    }
+  }
+  
   
 
   
