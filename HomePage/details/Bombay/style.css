@@ -23,10 +23,16 @@ body {
   margin: 2%;
   margin-left: 135px;
   transition: all 0.6s;
+  box-shadow: 1px 1px 10px black;
+}
+
+.title h1 {
+  padding-left: 8px;
+  margin-right: 15px;
 }
 
 .card:hover {
-  box-shadow: 2px 2px 20px black;
+  box-shadow: 3px 3px 30px black;
 }
 
 .image img {
