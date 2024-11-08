@@ -55,7 +55,7 @@ For any inquiries or support, please contact us at:
 We welcome contributions to enhance SewFresh. Please fork the repository and submit pull requests with detailed descriptions of your changes.
 
 ## Installation
-No installation is required to play the game. Simply open the `index.html` file in your web browser to start playing.
+No installation is required to run the project. Simply open the `index.html` file in your web browser to run the project.
 
 
 
